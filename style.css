@@ -10,20 +10,14 @@ body {
   color: var(--text);
 }
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background: #181f2a;
+  /* Navbar styles now handled by Bootstrap */
 }
 nav h1 {
   color: var(--accent);
   font-size: 1.5rem;
 }
 nav ul {
-  display: flex;
-  list-style: none;
-  gap: 1.5rem;
+  /* navigation layout handled by Bootstrap */
 }
 nav a {
   color: var(--text);
@@ -51,19 +45,7 @@ nav a {
 section {
   padding: 2rem;
 }
-.card {
-  display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
-  background: #1a2635;
-  padding: 1rem;
-  border-radius: 10px;
-}
-.card img {
-  width: 180px;
-  object-fit: cover;
-  border-radius: 8px;
-}
+/* Project card styling now uses Bootstrap */
 .cert-grid {
   display: flex;
   gap: 1rem;
