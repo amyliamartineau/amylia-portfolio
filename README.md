@@ -12,4 +12,4 @@ Open `index.html` in your browser to view the site. The page loads Bootstrap fro
 - Responsive navigation bar and sections
 - Example project card and certification gallery
 
-Feel free to customize the content and styles to suit your needs.
+

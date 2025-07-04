@@ -62,19 +62,32 @@ footer {
   color: #aaa;
 }
 #theme-toggle {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  background: #222;
-  color: #fff;
-  border: none;
-  padding: 0.5rem;
-  border-radius: 50%;
-  cursor: pointer;
+position: fixed;
+top: 1rem;
+right: 1rem;
+background: #222;
+color: #fff;
+border: none;
+padding: 0.5rem;
+border-radius: 50%;
+cursor: pointer;
 }
 body.light-mode {
   --bg: #f4f6f9;
   --text: #111;
   --accent: #007acc;
 }
-
+.cert-thumb {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  transition: box-shadow 0.2s;
+}
+.cert-thumb:hover {
+  box-shadow: 0 0 10px 2px var(--accent);
+  cursor: pointer;
+}
